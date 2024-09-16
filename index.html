@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تطبيق الجدول التفاعلي</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>تطبيق الجدول التفاعلي</h1>
+    <input type="text" id="table-title" placeholder="أدخل عنوان الجدول">
+    <button id="add-row">إضافة صف</button>
+    <button id="add-column">إضافة عمود</button>
+    <button id="toggle-edit">تبديل وضع التحرير</button>
+    <button id="close-edit">إغلاق تحرير الجدول</button>
+    <button id="new-page">صفحة جديدة</button>
+    <p id="datetime">التاريخ والوقت:</p>
+    <table id="interactive-table" border="1" style="width: 100%; border-collapse: collapse;">
+        <thead>
+            <tr>
+                <th>العمود 1</th>
+                <th>العمود 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>خانة 1</td>
+                <td>خانة 2</td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
